@@ -27,4 +27,4 @@ if (namespace.unicorn) {
 }
 ```
 
-It is guaranteed that any module requiring `can-namespace` will receive the same module because only one version of `can-namespace` will ever be published.
+Any module requiring `can-namespace` will receive the same module because only one version of `can-namespace` will ever be published.

@@ -13,10 +13,6 @@
     "url": "http://bitovi.com"
   },
   "scripts": {
-    "testee": "testee test/test.html --browsers firefox",
-    "test": "npm run jshint && npm run testee",
-    "jshint": "jshint ./*.js --config",
-    "document": "bit-docs"
   },
   "main": "can-namespace",
   "keywords": [
@@ -30,29 +26,5 @@
   "dependencies": {
   },
   "devDependencies": {
-    "bit-docs": "0.0.7",
-    "jshint": "^2.9.1",
-    "steal": "^0.16.0",
-    "steal-qunit": "^0.1.1",
-    "steal-tools": "^0.16.0",
-    "testee": "^0.3.0"
-  },
-  "bit-docs": {
-    "dependencies": {
-      "bit-docs-glob-finder": "^0.0.5",
-      "bit-docs-dev": "^0.0.3",
-      "bit-docs-js": "^0.0.3",
-      "bit-docs-generate-readme": "^0.0.8"
-    },
-    "glob": {
-      "pattern": "**/*.{js,md}",
-      "ignore": "node_modules/**/*"
-    },
-    "readme": {
-      "apis": [
-        "can-namespace"
-      ]
-    },
-    "parent": "can-namespace"
   }
 }

@@ -1,7 +1,5 @@
 # can-namespace
 
-[![Build Status](https://travis-ci.org/canjs/can-namespace.png?branch=master)](https://travis-ci.org/canjs/can-namespace)
-
 Namespace where can-* packages are registered
 
 ## Usage
@@ -24,4 +22,4 @@ if (namespace.unicorn) {
 }
 ```
 
-It is guaranteed that any module requiring `can-namespace` will receive the same module because only one version of `can-namespace` will ever be published.
+Any module requiring `can-namespace` will receive the same module because only one version of `can-namespace` will ever be published.
