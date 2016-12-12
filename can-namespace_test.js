@@ -1,5 +1,5 @@
 var QUnit = require('steal-qunit');
-var plugin = require('./can-namespace');
+var plugin = require('can-namespace');
 
 QUnit.module('can-namespace');
 
