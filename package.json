@@ -1,6 +1,6 @@
 {
   "name": "can-namespace",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Namespace where can-* packages are registered",
   "homepage": "http://canjs.com",
   "repository": {
@@ -12,8 +12,7 @@
     "email": "contact@bitovi.com",
     "url": "http://bitovi.com"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "main": "can-namespace",
   "keywords": [
     "canjs",
@@ -23,8 +22,6 @@
   "system": {
     "npmAlgorithm": "flat"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
