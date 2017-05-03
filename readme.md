@@ -1,5 +1,7 @@
 # can-namespace
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-namespace.svg)](https://greenkeeper.io/)
+
 Namespace where can-* packages are registered
 
 ## Usage
