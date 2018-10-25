@@ -12,6 +12,7 @@
     "email": "contact@bitovi.com",
     "url": "http://bitovi.com"
   },
+  "license": "MIT",
   "scripts": {},
   "main": "can-namespace",
   "keywords": [
